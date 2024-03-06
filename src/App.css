@@ -1,0 +1,114 @@
+#root {
+  /* max-width: 1280px; */
+
+  
+  
+}
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  width: auto;
+}
+.my-masonry-grid_column {
+  background-clip: padding-box;
+}
+
+
+.ar{  font-family: "Noto Kufi Arabic", sans-serif;
+  
+}
+.number {
+  unicode-bidi: embed; /* Force numbers to display with their original directionality */
+}
+.grad {
+  background-color: hsla(0, 0%, 0%, 1);
+  background-image: radial-gradient(
+      at 0% 0%,
+      hsla(198, 78%, 47%, 0.9) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 100% 99%, hsla(198, 78%, 47%, 0.58) 0px, transparent 50%);
+}
+.grad2 {
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: radial-gradient(
+    50% 57% at 52% -38%,
+    #199dd7 19%,
+    #ffffffff 100%
+  );
+}
+
+.holder {
+  background-size: 100px 100px;
+  background-position: 0px 0px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #ffffffff 3%,
+    #818181ff 28%
+  );
+}
+
+.grad3 {
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: linear-gradient(
+    0deg,
+    #000000ff 4%,
+    #199dd7 37%,
+    #ffffffff 80%
+  );
+}
+
+.grad4 {
+  background-color: hsla(0, 0%, 100%, 1);
+  background-image: radial-gradient(
+      at 82% 20%,
+      hsla(198, 79%, 47%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 0% 100%, hsla(306, 0%, 100%, 1) 0px, transparent 50%);
+}
+
+.slide:hover > div {
+  top: 0;
+  opacity: 1;
+}
+
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
