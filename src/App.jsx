@@ -137,7 +137,7 @@ function App() {
       <div className=" h-[40vh] relative overflow-clip">
         <video
           className="w-full h-full object-cover"
-          src="src/assets/utol35.mp4"
+          src="/assets/utol35.mp4"
           autoPlay
           muted
           loop

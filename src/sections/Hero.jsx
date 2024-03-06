@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 const Hero = ({ scrollToContact }) => {
   const headersRef = useRef(null);
   const isInView = useInView(headersRef, { once: true });
-  const { t} = useTranslation()
+  const { t } = useTranslation();
   return (
     <>
       <main
@@ -17,7 +17,7 @@ const Hero = ({ scrollToContact }) => {
       >
         <video
           className=" absolute z-[0]   top-0 object-cover    h-full w-full"
-          src="src/assets/zetxtd.mp4"
+          src="/assets/zetxtd.mp4"
           autoPlay
           muted
           loop
@@ -31,8 +31,11 @@ const Hero = ({ scrollToContact }) => {
         >
           <div className="select-none flex flex-row items-start pb-6 justify-center sm:justify-start  gap-6 z-1 w-full h-full">
             <div className=" flex flex-col items-start  justify-start gap-6 z-1 w-full sm:w-[80%]">
-              <h1 className={`text-5xl sm:text-7xl xl:leading-tight  text-white font-black  leading-tight uppercase `}>
-                <span className={` text-primary  `}>{t("years")}</span> {t("of")} <br /> {t("experience")}
+              <h1
+                className={`text-5xl sm:text-7xl xl:leading-tight  text-white font-black  leading-tight uppercase `}
+              >
+                <span className={` text-primary  `}>{t("years")}</span>{" "}
+                {t("of")} <br /> {t("experience")}
                 <br className="" />
                 {t("and fine")} <br className="" /> {t("cutting")}
               </h1>

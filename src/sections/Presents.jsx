@@ -50,7 +50,7 @@ const Presents = () => {
           >
             <img
               className="h-full w-full object-cover"
-              src="src/assets/comp.jpeg"
+              src="/assets/comp.jpeg"
               alt=""
               draggable="false"
             />
@@ -113,10 +113,9 @@ const Presents = () => {
             isInView2 ? "" : "translate-x-[200px] opacity-0"
           }`}
             >
-              {/* src/assets/WhatsApp Image 2024-01-24 at 2.25.43 PM (1).jpeg */}
               <img
                 className=" object-cover w-full"
-                src="src/assets/WhatsApp Image 2024-01-24 at 2.25.42 PM (1).jpeg"
+                src="/assets/WhatsApp Image 2024-01-24 at 2.25.42 PM (1).jpeg"
                 alt=""
                 draggable="false"
               />
@@ -134,7 +133,7 @@ const Presents = () => {
             >
               <img
                 className=" object-cover w-full"
-                src="src/assets/WhatsApp Image 2024-01-24 at 2.25.42 PM (1).jpeg"
+                src="/assets/WhatsApp Image 2024-01-24 at 2.25.42 PM (1).jpeg"
                 alt=""
                 draggable="false"
               />
@@ -183,7 +182,7 @@ const Presents = () => {
               {" "}
               <img
                 className=" w-full h-full object-cover"
-                src="src/assets/WhatsApp Image 2024-01-24 at 2.25.43 PM (1).jpeg"
+                src="/assets/WhatsApp Image 2024-01-24 at 2.25.43 PM (1).jpeg"
                 alt=""
                 draggable="false"
               />
@@ -321,104 +320,104 @@ const Presents = () => {
 
 const data_en = [
   {
-    img: `src/assets/heads/1.jpeg`,
+    img: `/assets/heads/1.jpeg`,
     title: "Managing director",
     linkedin:
       "https://www.linkedin.com/in/amr-bondok-b7507594?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    img: `src/assets/heads/2.jpeg`,
+    img: `/assets/heads/2.jpeg`,
     title: "Plant manager",
     linkedin:
       "https://www.linkedin.com/in/ahmed-helal-85213793?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    img: `src/assets/heads/3.jpeg`,
+    img: `/assets/heads/3.jpeg`,
     title: "Human resources",
     linkedin: "https://www.linkedin.com/in/abir-khamis-2057aa2b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    img: `src/assets/heads/6.jpeg`,
+    img: `/assets/heads/6.jpeg`,
     title: "Separation director",
     linkedin: "https://www.linkedin.com/in/eslam-elsewafy-75a1b012a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   
   {
-    img: `src/assets/heads/5.jpeg`,
+    img: `/assets/heads/5.jpeg`,
     title: "Preprocessing director",
     linkedin: "https://www.linkedin.com/in/abla-bondok-6a910a286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    img: `src/assets/heads/4.jpeg`,
+    img: `/assets/heads/4.jpeg`,
     title: "Sales director",
     
   },
   
   {
-    img: `src/assets/heads/7.jpeg`,
+    img: `/assets/heads/7.jpeg`,
     title: "Financial director",
     linkedin: "https://www.linkedin.com/in/reem-bondok-0487302b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    img: `src/assets/heads/8.jpeg`,
+    img: `/assets/heads/8.jpeg`,
     title: "Public relations",
     linkedin:
       "https://www.linkedin.com/in/dina-bondok-a8200b2b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    img: `src/assets/heads/9.jpeg`,
+    img: `/assets/heads/9.jpeg`,
     title: "Information technology",
     linkedin: "https://www.linkedin.com/in/mrwan-magdy-a00780265/",
   },
 ];
 const data_ar = [
   {
-    img: `src/assets/heads/1.jpeg`,
+    img: `/assets/heads/1.jpeg`,
     title: "مدير تنفيذي",
     linkedin:
       "https://www.linkedin.com/in/amr-bondok-b7507594?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    img: `src/assets/heads/2.jpeg`,
+    img: `/assets/heads/2.jpeg`,
     title: "مدير المصنع",
     linkedin:
       "https://www.linkedin.com/in/ahmed-helal-85213793?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    img: `src/assets/heads/3.jpeg`,
+    img: `/assets/heads/3.jpeg`,
     title: "الموارد البشرية",
     linkedin: "https://www.linkedin.com/in/abir-khamis-2057aa2b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    img: `src/assets/heads/6.jpeg`,
+    img: `/assets/heads/6.jpeg`,
     title: "مدير الفصل",
     linkedin: "https://www.linkedin.com/in/eslam-elsewafy-75a1b012a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   
   {
-    img: `src/assets/heads/5.jpeg`,
+    img: `/assets/heads/5.jpeg`,
     title: "الأعداد الفني",
     linkedin: "https://www.linkedin.com/in/abla-bondok-6a910a286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    img: `src/assets/heads/4.jpeg`,
+    img: `/assets/heads/4.jpeg`,
     title: "مدير المبيعات",
     
   },
   
   {
-    img: `src/assets/heads/7.jpeg`,
+    img: `/assets/heads/7.jpeg`,
     title: "المدير المالي",
     linkedin: "https://www.linkedin.com/in/reem-bondok-0487302b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    img: `src/assets/heads/8.jpeg`,
+    img: `/assets/heads/8.jpeg`,
     title: "العلاقات العامة",
     linkedin:
       "https://www.linkedin.com/in/dina-bondok-a8200b2b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    img: `src/assets/heads/9.jpeg`,
+    img: `/assets/heads/9.jpeg`,
     title: "تكنولوجيا المعلومات",
     linkedin: "https://www.linkedin.com/in/mrwan-magdy-a00780265/",
   },

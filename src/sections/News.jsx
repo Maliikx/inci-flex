@@ -24,7 +24,7 @@ const News = () => {
     //   Banner
     <div className="h-fit select-none">
       <video
-        src="src/assets/vhx9ia.mp4"
+        src="/assets/vhx9ia.mp4"
         className=" w-full h-[30vh] sm:h-[60vh] object-cover z-0 absolute"
         loop
         muted
@@ -122,13 +122,13 @@ const News = () => {
 
 const data_en = [
   {
-    thumbnail: "src/assets/news/news1.jpeg",
+    thumbnail: "/assets/news/news1.jpeg",
     header: "Introducing Cyrel® EASY FAST EFX: Next-Level Printing Excellence",
     description:
       "Unlock unrivaled printing quality with Cyrel® EASY FAST EFX, a thermal processed plate designed for halftones, linework, and solids. Its smooth surface allows for exceptional ink density transfer and low dot gain, perfect for flexible packaging, labels, envelopes, and more. Compatible with solvent-based, water-based, and UV inks, Cyrel® EASY FAST EFX sets a new standard for high-quality printing.",
   },
   {
-    thumbnail: "src/assets/news/news2.jpg",
+    thumbnail: "/assets/news/news2.jpg",
     header:
       "Empowering Teams: Recent Training Enhances Skills, Collaboration and safty",
     description:
@@ -138,13 +138,13 @@ const data_en = [
 ];
 const data_ar = [
   {
-    thumbnail: "src/assets/news/news1.jpeg",
+    thumbnail: "/assets/news/news1.jpeg",
     header: "تقديم Cyrel® EASY FAST EFX: التميز في الطباعة على المستوى التالي",
     description:
       "قدمت تكنولوجيا الحفر مع Cyrel® EASY FAST EFX جودة غير مسبوقة حيث تتم المعالجة الحرارية للاكلشيهات بطريقة مبتكرة  تؤدي اللي الحصول على نوع من الأكلشيهات بشكل ناعم يسمح بنقل الأحبار المائية و أحبار الاشعة فوق البنفسجية الي مواد الطباعة المرنة من الكرتون و الاستيكرات و الأظرف و بدرجة عالية من الدقة حيث تضع معياراً جديداً لطباعة عالية الجودة.",
   },
   {
-    thumbnail: "src/assets/news/news2.jpg",
+    thumbnail: "/assets/news/news2.jpg",
     header: "تطوير الفريق:أخر التدريبات لتعزيز المهارات والتعاون والسلامة",
     description:
       'في خطوة نشطة نحو التطوير المهني، أكمل فريقنا سلسلة من دورات التدريب التي تغطي مجموعة واسعة من المهارات الأساسية. يُعرف هذا التدريب بـ "قطار التدريب (ToT)"، حيث ركزت هذه الدورات على استراتيجيات حل المشكلات، وتعزيز فعالية العمل الجماعي، وتسهيل النقاشات، واحتراف تقنيات مكافحة الحرائق، وعمليات التدقيق الداخلي، بالإضافة إلى التعمق في برامج التكلفة والتسعير. بفضل هذا التدريب الشامل، أصبح فريقنا مجهزًا الآن بقدرات محسّنة لمواجهة التحديات، ودفع الابتكار، وتحقيق أفضل النتائج.',

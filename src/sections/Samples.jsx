@@ -8,9 +8,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-
 import { ArrowRight, ArrowLeft } from "lucide-react";
-
 
 const settings = {
   dots: true,
@@ -19,7 +17,6 @@ const settings = {
   slidesToScroll: 1,
   pauseOnHover: false,
 };
-
 
 const Samples = () => {
   const [mdSlides, setMdSlides] = useState();
@@ -85,17 +82,17 @@ const Samples = () => {
 };
 const data = [
   {
-    img: `src/assets/WhatsApp Image 2024-01-13 at 11.48.48 AM (1).jpeg`,
+    img: `/assets/WhatsApp Image 2024-01-13 at 11.48.48 AM (1).jpeg`,
   },
   {
-    img: `src/assets/WhatsApp Image 2024-01-13 at 11.48.48 AM.jpeg`,
+    img: `/assets/WhatsApp Image 2024-01-13 at 11.48.48 AM.jpeg`,
   },
-  
+
   {
-    img: `/src/assets/WhatsApp Image 2024-01-13 at 11.48.49 AM.jpeg`,
+    img: `//assets/WhatsApp Image 2024-01-13 at 11.48.49 AM.jpeg`,
   },
   {
-    img: `src/assets/WhatsApp Image 2024-01-13 at 11.48.47 AM.jpeg`,
+    img: `/assets/WhatsApp Image 2024-01-13 at 11.48.47 AM.jpeg`,
   },
 ];
 
