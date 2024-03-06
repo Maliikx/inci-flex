@@ -15,7 +15,6 @@ import head5 from "../assets/heads/5.jpeg";
 import head6 from "../assets/heads/6.jpeg";
 import head7 from "../assets/heads/7.jpeg";
 import head8 from "../assets/heads/8.jpeg";
-import head9 from "../assets/heads/9.jpeg";
 
 const Presents = () => {
   const contentRef = useRef(null);
@@ -380,7 +379,6 @@ const data_en = [
       "https://www.linkedin.com/in/dina-bondok-a8200b2b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    img: head9,
     title: "Information technology",
     linkedin: "https://www.linkedin.com/in/mrwan-magdy-a00780265/",
   },
@@ -435,7 +433,6 @@ const data_ar = [
       "https://www.linkedin.com/in/dina-bondok-a8200b2b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    img: head9,
     title: "تكنولوجيا المعلومات",
     linkedin: "https://www.linkedin.com/in/mrwan-magdy-a00780265/",
   },
