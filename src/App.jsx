@@ -12,6 +12,7 @@ import { useRef } from "react";
 import { FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 import { Phone } from "lucide-react";
 import logo from "./assets/inciflex.svg";
+import vid1 from "./assets/utol35.mp4"
 
 import "./App.css";
 import { useInView } from "framer-motion";
@@ -137,7 +138,7 @@ function App() {
       <div className=" h-[40vh] relative overflow-clip">
         <video
           className="w-full h-full object-cover"
-          src="/assets/utol35.mp4"
+          src={vid1}
           autoPlay
           muted
           loop
@@ -241,13 +242,21 @@ function App() {
                 target="_blank"
                 href="https://www.facebook.com/inciflexegyptprepresssolutionsforpackaging?mibextid=ZbWKwL"
               >
-                <FaFacebookSquare className=" text-secondary hover:text-gray-200" color="" size={24} />
+                <FaFacebookSquare
+                  className=" text-secondary hover:text-gray-200"
+                  color=""
+                  size={24}
+                />
               </a>
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/inciflex-egypt-a167382b3/"
               >
-                <FaLinkedin className=" text-secondary hover:text-gray-200" color="" size={24} />
+                <FaLinkedin
+                  className=" text-secondary hover:text-gray-200"
+                  color=""
+                  size={24}
+                />
               </a>{" "}
             </div>
           </div>

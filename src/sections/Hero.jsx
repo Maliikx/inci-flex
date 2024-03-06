@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { useInView } from "framer-motion";
 
 import { useTranslation } from "react-i18next";
+import vid1 from '../assets/zetxtd.mp4'
 
 const Hero = ({ scrollToContact }) => {
   const headersRef = useRef(null);
@@ -17,7 +18,7 @@ const Hero = ({ scrollToContact }) => {
       >
         <video
           className=" absolute z-[0]   top-0 object-cover    h-full w-full"
-          src="/assets/zetxtd.mp4"
+          src={vid1}
           autoPlay
           muted
           loop

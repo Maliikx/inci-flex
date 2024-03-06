@@ -8,7 +8,13 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
+
 import { ArrowRight, ArrowLeft } from "lucide-react";
+
+import img1 from '../assets/WhatsApp Image 2024-01-13 at 11.48.48 AM (1).jpeg'
+import img2 from '../assets/WhatsApp Image 2024-01-13 at 11.48.48 AM.jpeg'
+import img3 from '../assets/WhatsApp Image 2024-01-13 at 11.48.49 AM.jpeg'
+import img4 from '../assets/WhatsApp Image 2024-01-13 at 11.48.47 AM.jpeg'
 
 const settings = {
   dots: true,
@@ -82,17 +88,17 @@ const Samples = () => {
 };
 const data = [
   {
-    img: `/assets/WhatsApp Image 2024-01-13 at 11.48.48 AM (1).jpeg`,
+    img: img1,
   },
   {
-    img: `/assets/WhatsApp Image 2024-01-13 at 11.48.48 AM.jpeg`,
+    img: img2,
   },
 
   {
-    img: `//assets/WhatsApp Image 2024-01-13 at 11.48.49 AM.jpeg`,
+    img:  img3,
   },
   {
-    img: `/assets/WhatsApp Image 2024-01-13 at 11.48.47 AM.jpeg`,
+    img: img4,
   },
 ];
 
