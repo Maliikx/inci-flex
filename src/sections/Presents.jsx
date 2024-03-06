@@ -222,9 +222,9 @@ const Presents = () => {
                         : " text-xl/[2rem] sm:text-2xl md:text-2xl/[2.5rem] lg:text-3xl/[3rem]"
                     }`}
                   >
-                    {t("mech2 quote head")}
+                   "{t("mech2 quote head")}
                   </mark>{" "}
-                  {t("mech2 quote body")}
+                  {t("mech2 quote body")}"
                 </h1>
               </div>
             </div>
