@@ -1,5 +1,5 @@
 import React from "react";
-import { useInView, motion } from "framer-motion";
+import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { FaLinkedin } from "react-icons/fa";
@@ -53,7 +53,7 @@ const Presents = () => {
   return (
     <div className={`flex overflow-hidden flex-col h-full`}>
       <div ref={contentRef} className="pb-20 overflow-clip ">
-        <div className="flex flex-col  gap-5  md:flex-row md:justify-between  ">
+        <div className="flex flex-col gap-5 md:flex-row md:justify-between ">
           <div
             className={` holder md:border-x md:border-b border-black overflow-hidden md:rounded-b-lg w-[100vw]  md:w-[50vw] aspect-[2/1.3] transition
           duration-1000 ease-in-out delay-0 ${
@@ -61,7 +61,7 @@ const Presents = () => {
           }`}
           >
             <img
-              className="h-full w-full object-cover"
+              className="object-cover w-full h-full"
               src={compPic}
               alt=""
               draggable="false"
@@ -85,11 +85,11 @@ const Presents = () => {
         </div>
       </div>
 
-      <div className="flex flex-col   sm:p-10   gap-20 items-center justify-center h-fit  ">
+      <div className="flex flex-col items-center justify-center gap-20 sm:p-10 h-fit ">
         {/* large machine show */}
         <div className="bg-gray-100 w-[80%] items-center shadow-xl rounded-xl  flex-row hidden md:flex h-fit">
           <div className="1 flex w-[100%] p-10  h-fit">
-            <div className="flex   justify-center items-center h-fill w-full">
+            <div className="flex items-center justify-center w-full h-fill">
               <div
                 ref={contentRef2}
                 className={`flex flex-col transition-all 
@@ -126,7 +126,7 @@ const Presents = () => {
           }`}
             >
               <img
-                className=" object-cover w-full"
+                className="object-cover w-full "
                 src={mech1}
                 alt=""
                 draggable="false"
@@ -144,7 +144,7 @@ const Presents = () => {
           }`}
             >
               <img
-                className=" object-cover w-full"
+                className="object-cover w-full "
                 src={mech1}
                 alt=""
                 draggable="false"
@@ -152,7 +152,7 @@ const Presents = () => {
             </div>
           </div>
           <div className="1 flex w-[100%] p-5 sm:p-8  h-fit">
-            <div className="flex   justify-center items-center h-fill w-full">
+            <div className="flex items-center justify-center w-full h-fill">
               <div
                 ref={contentRef2md}
                 className={`flex flex-col transition-all 
@@ -193,7 +193,7 @@ const Presents = () => {
             >
               {" "}
               <img
-                className=" w-full h-full object-cover"
+                className="object-cover w-full h-full "
                 src={mech2}
                 alt=""
                 draggable="false"
@@ -201,7 +201,7 @@ const Presents = () => {
             </div>
           </div>
           <div className="4 flex w-[100%] p-5 sm:p-8 md:px-5 lg:p-8  h-fit">
-            <div className="flex   justify-center items-center h-fill w-full">
+            <div className="flex items-center justify-center w-full h-fill">
               <div
                 className={`flex flex-col transition
           duration-1000 ease-in-out delay-500 ${
@@ -232,7 +232,7 @@ const Presents = () => {
         </div>
       </div>
 
-      <div className=" flex flex-col p-10 pb-20 justify-center gap-10 ">
+      <div className="flex flex-col justify-center gap-10 p-10 pb-20 ">
         <h1
           className={`flex justify-center  text-2xl md:text-4xl xl:text-5xl select-none font-medium transition
           duration-1000 ease-out delay-500 ${isInView4 ? "" : "opacity-0"}   `}
@@ -241,7 +241,7 @@ const Presents = () => {
         </h1>
         <div
           ref={contentRef4}
-          className=" flex flex-wrap gap-20  items-center justify-center"
+          className="flex flex-wrap items-center justify-center gap-20 "
         >
           {i18n.language === "en"
             ? data_en.map((d) => (
@@ -258,7 +258,7 @@ const Presents = () => {
                       className={` slide flex relative  rounded-xl overflow-hidden shadow-xl w-full sm:w-[35vw] md:w-[20vw] aspect-square t`}
                     >
                       <img
-                        className="object-cover h-full w-full"
+                        className="object-cover w-full h-full"
                         src={d.img}
                         alt=""
                         draggable="false"
@@ -266,19 +266,19 @@ const Presents = () => {
                       <div className="absolute flex opacity-0 items-center bg-white justify-center top-[35rem] sm:top-[35rem] transition-all ease-out delay-0 duration-500  right-0 w-full h-full bg-opacity-40 backdrop-blur-lg backdrop-brightness-100">
                         <a href={d.linkedin} target="_blank">
                           <FaLinkedin
-                            className=" text-white hover:text-gray-200"
+                            className="text-white hover:text-gray-200"
                             size={100}
                           />
                         </a>
                       </div>
                     </div>
                     <a
-                      className="flex flex-row text-primary underline gap-2 items-center"
+                      className="flex flex-row items-center gap-2 underline text-primary"
                       href={d.linkedin}
                       target="_blank"
                     >
                       <FaLinkedin className="" size={24} />
-                      <h1 className=" text-black hover:text-primary opacity-75 text-xl md:text-lg  xl:text-2xl">
+                      <h1 className="text-xl text-black opacity-75 hover:text-primary md:text-lg xl:text-2xl">
                         {d.title}
                       </h1>
                     </a>
@@ -297,7 +297,7 @@ const Presents = () => {
                       className={`flex slide relative rounded-xl overflow-hidden shadow-xl w-full sm:w-[35vw] md:w-[20vw] aspect-square t`}
                     >
                       <img
-                        className="object-cover h-full w-full"
+                        className="object-cover w-full h-full"
                         src={d.img}
                         alt=""
                         draggable="false"
@@ -305,19 +305,19 @@ const Presents = () => {
                       <div className="absolute flex opacity-0 items-center bg-white justify-center top-[35rem] sm:top-[35rem] transition-all ease-out delay-0 duration-500  right-0 w-full h-full bg-opacity-40 backdrop-blur-lg backdrop-brightness-100">
                         <a href={d.linkedin} target="_blank">
                           <FaLinkedin
-                            className=" text-white hover:text-gray-200"
+                            className="text-white hover:text-gray-200"
                             size={100}
                           />
                         </a>
                       </div>
                     </div>
                     <a
-                      className="flex flex-row text-primary underline gap-2 items-center"
+                      className="flex flex-row items-center gap-2 underline text-primary"
                       href={d.linkedin}
                       target="_blank"
                     >
                       <FaLinkedin className="" size={24} />
-                      <h1 className=" text-black hover:text-primary opacity-75 text-xl md:text-lg  xl:text-2xl">
+                      <h1 className="text-xl text-black opacity-75 hover:text-primary md:text-lg xl:text-2xl">
                         {d.title}
                       </h1>
                     </a>
@@ -413,7 +413,7 @@ const data_ar = [
 
   {
     img: head5,
-    title: "الأعداد الفني",
+    title: "الإعداد الفني",
     linkedin:
       "https://www.linkedin.com/in/abla-bondok-6a910a286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },

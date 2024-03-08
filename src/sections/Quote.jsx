@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Languages } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
@@ -6,7 +6,6 @@ import { useTranslation } from "react-i18next";
 const Quote = () => {
   const [quote, setQuote] = useState(`Non puoi mettere un limite a tutto.<br/> Più sogni, più lontano arriverai.`);
   
-  const { i18n } = useTranslation();
 
   
   
@@ -32,15 +31,15 @@ const Quote = () => {
   }
 
   return (
-    <div className="select-none flex grad p-2 py-20 justify-center items-center">
+    <div className="flex items-center justify-center p-2 py-20 select-none grad">
       <div className="w-[75%] justify-center items-center">
         <span className="text-white font-normal flex flex-col gap-10  text-lg sm:text-3xl lg:text-4xl/[3.5rem]">
           <q className="" dangerouslySetInnerHTML={{ __html: quote }}/>
          
-          <div className="flex flex-row justify-between items-center">
+          <div className="flex flex-row items-center justify-between">
             <h1 className="text-sm sm:text-xl lg:text-2xl">{t("Micheal Phelps")}</h1>
             <button
-              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium bg-white h-fit p-1 lg:p-2  hover:brightness-90 transition-all ease-out delay-0"
+              className="inline-flex items-center justify-center p-1 text-sm font-medium transition-all ease-out bg-white rounded-md whitespace-nowrap h-fit lg:p-2 hover:brightness-90 delay-0"
               onClick={translateQuote}
             >
               <Languages color="black" className="scale-75 lg:scale-100" />

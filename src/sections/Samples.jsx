@@ -8,13 +8,12 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-
 import { ArrowRight, ArrowLeft } from "lucide-react";
 
-import img1 from '../assets/WhatsApp Image 2024-01-13 at 11.48.48 AM (1).jpeg'
-import img2 from '../assets/WhatsApp Image 2024-01-13 at 11.48.48 AM.jpeg'
-import img3 from '../assets/WhatsApp Image 2024-01-13 at 11.48.49 AM.jpeg'
-import img4 from '../assets/WhatsApp Image 2024-01-13 at 11.48.47 AM.jpeg'
+import img1 from "../assets/WhatsApp Image 2024-01-13 at 11.48.48 AM (1).jpeg";
+import img2 from "../assets/WhatsApp Image 2024-01-13 at 11.48.48 AM.jpeg";
+import img3 from "../assets/WhatsApp Image 2024-01-13 at 11.48.49 AM.jpeg";
+import img4 from "../assets/WhatsApp Image 2024-01-13 at 11.48.47 AM.jpeg";
 
 const settings = {
   dots: true,
@@ -53,7 +52,7 @@ const Samples = () => {
   const { t } = useTranslation();
   const { i18n } = useTranslation();
   return (
-    <div className=" select-none grad2 gap-20 py-20 px-2 relative flex flex-col    overflow-hidden items-center justify-center h-fit">
+    <div className="relative flex flex-col items-center justify-center gap-20 px-2 py-20 overflow-hidden select-none grad2 h-fit">
       <h1
         className={` text-4xl md:text-3xl lg:text-2xl  font-semibold transition-all 
           duration-1000 ease-[cubic-bezier(0.7, -0.03, 0.56, 1)] delay-500 ${
@@ -75,8 +74,8 @@ const Samples = () => {
           >
             {data.map((d) => (
               <>
-                <div className=" h-fit  flex justify-center p-5 items-center ">
-                  <img src={d.img} alt="" className="h-full  " />
+                <div className="flex items-center justify-center p-5 h-fit">
+                  <img src={d.img} alt="" className="h-full " />
                 </div>
               </>
             ))}
@@ -95,7 +94,7 @@ const data = [
   },
 
   {
-    img:  img3,
+    img: img3,
   },
   {
     img: img4,
